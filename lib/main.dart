@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/WidgetPages/container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,11 +52,16 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView.builder(
           itemBuilder: (builder, index) {
             return Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 2),
               child: Card(
                 elevation: 4,
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      return ContainerHelper();
+                    }));
+                  },
                   child: Container(
                     padding: const EdgeInsets.all(10),
                     height: 60,
