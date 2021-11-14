@@ -1,0 +1,89 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Widgets Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Widgets Demo'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  var widgetList = [
+    'Container',
+    'Text',
+    'Button',
+    'TextField',
+    'Column',
+    'Row',
+    'AppBar',
+    'Stack'
+  ];
+  var kPcolor = Colors.indigo;
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.only(top: 10),
+        child: ListView.builder(
+          itemBuilder: (builder, index) {
+            return Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+              child: Card(
+                elevation: 4,
+                child: InkWell(
+                  onTap: () {},
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    height: 60,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          widgetList[index],
+                          style: TextStyle(
+                              color: kPcolor,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w700),
+                        ),
+                        Icon(
+                          Icons.arrow_forward_ios,
+                          color: kPcolor,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            );
+          },
+          itemCount: widgetList.length,
+        ),
+      ),
+    );
+  }
+}
