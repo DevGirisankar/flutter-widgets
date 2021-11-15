@@ -25,7 +25,8 @@
 <img width="300" alt="Screenshot 2021-11-15 at 1 48 18 PM" src="https://user-images.githubusercontent.com/44155211/141746313-3a8e3c7f-fee9-424a-9bbd-bf76c583ee27.png">
 <img width="300" alt="Screenshot 2021-11-15 at 1 48 35 PM" src="https://user-images.githubusercontent.com/44155211/141746355-8e220fdf-8f22-4a4f-87d7-5290a644ad8f.png">
 <img width="300" alt="Screenshot 2021-11-15 at 1 48 50 PM" src="https://user-images.githubusercontent.com/44155211/141746395-36f57648-fedf-4f4a-8116-776b59b95e19.png">
+<img width="300" alt="Screenshot 2021-11-15 at 1 50 21 PM" src="https://user-images.githubusercontent.com/44155211/141746637-29e40973-0df5-4796-a2d7-d3c8a9484711.png">
 <img width="300" alt="Screenshot 2021-11-15 at 1 49 22 PM" src="https://user-images.githubusercontent.com/44155211/141746474-5aceb682-3f81-4523-ba47-162e02617e91.png">
 <img width="300" alt="Screenshot 2021-11-15 at 1 49 41 PM" src="https://user-images.githubusercontent.com/44155211/141746523-b1ea1099-72d7-4903-b946-d0e5e349dc54.png">
-<img width="300" alt="Screenshot 2021-11-15 at 1 50 21 PM" src="https://user-images.githubusercontent.com/44155211/141746637-29e40973-0df5-4796-a2d7-d3c8a9484711.png">
+
 |
