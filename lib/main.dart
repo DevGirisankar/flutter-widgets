@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/WidgetPages/container.dart';
+import 'package:flutter_widgets/WidgetPages/text.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     'Stack'
   ];
   var kPcolor = Colors.indigo;
+  final pages = [ContainerHelper(), TextHelper()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -59,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   onTap: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) {
-                      return ContainerHelper();
+                      return pages[index];
                     }));
                   },
                   child: Container(
