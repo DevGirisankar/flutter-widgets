@@ -11,7 +11,7 @@ class ContainerHelper extends StatelessWidget {
             Title(color: Colors.black, child: const Text('Container Helper')),
       ),
       body: Center(
-        child: _CustomWidget.container7(),
+        child: _CustomWidget.container4(context),
       ),
     );
   }
@@ -82,7 +82,7 @@ class _CustomWidget {
               borderRadius: BorderRadius.circular(10),
               color: Colors.white,
               border: Border.all(color: Colors.indigo, width: 2)),
-          height: MediaQuery.of(context).size.height,
+          height: 200, // MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           child: const Center(
               child: Text('Hello World', textAlign: TextAlign.center)),
