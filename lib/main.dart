@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/WidgetPages/button.dart';
 import 'package:flutter_widgets/WidgetPages/container.dart';
 import 'package:flutter_widgets/WidgetPages/text.dart';
 
@@ -42,7 +43,11 @@ class _MyHomePageState extends State<MyHomePage> {
     'Stack'
   ];
   var kPcolor = Colors.indigo;
-  final pages = [ContainerHelper(), TextHelper()];
+  final pages = [
+    ContainerHelper(),
+    TextHelper(),
+    ButtonHelper(),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
