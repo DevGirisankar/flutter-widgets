@@ -37,3 +37,9 @@
 <img width="250" alt="Screenshot 2021-11-15 at 7 26 24 PM" src="https://user-images.githubusercontent.com/44155211/141793993-24f8bc12-0ecb-48a2-8f50-cbd175e8987d.png">
 <img width="250" alt="Screenshot 2021-11-15 at 7 27 03 PM" src="https://user-images.githubusercontent.com/44155211/141794106-2bd77874-4eb8-4aab-ab7e-989a1311f9ee.png">|
 
+## Column
+
+|<img width="250" alt="Screenshot 2021-11-16 at 7 15 59 PM" src="https://user-images.githubusercontent.com/44155211/141996743-7f331213-2f4e-46a1-bcc9-1e250f123944.png">
+<img width="250" alt="Screenshot 2021-11-16 at 7 16 11 PM" src="https://user-images.githubusercontent.com/44155211/141996771-0b07df98-e67f-47bd-8f05-a33f314eff16.png">
+<img width="250" alt="Screenshot 2021-11-16 at 7 16 22 PM" src="https://user-images.githubusercontent.com/44155211/141996804-94568fb4-09fe-430c-a8fc-050197b6c5ba.png">
+<img width="250" alt="Screenshot 2021-11-16 at 7 16 36 PM" src="https://user-images.githubusercontent.com/44155211/141996827-362f79ef-ae94-4934-8f36-1ca2d7cd1b7e.png">|
