@@ -10,11 +10,12 @@ class StackHelper extends StatelessWidget {
         title: const Text('Stack Widget'),
       ),
       body: Center(
-        child: stack(),
+        child: stack3(),
       ),
     );
   }
 
+// stack multiple containers
   Widget stack() {
     return Stack(
       alignment: Alignment.center,
@@ -38,6 +39,7 @@ class StackHelper extends StatelessWidget {
     );
   }
 
+// stack multiple containers
   Widget stack1() {
     return Stack(
       children: <Widget>[
@@ -60,6 +62,7 @@ class StackHelper extends StatelessWidget {
     );
   }
 
+// stack multiple containers
   Widget stack2() {
     return SizedBox(
       height: 400.0,
@@ -88,6 +91,7 @@ class StackHelper extends StatelessWidget {
     );
   }
 
+// just for fun
   Widget stack3() {
     return SizedBox(
       height: 400,

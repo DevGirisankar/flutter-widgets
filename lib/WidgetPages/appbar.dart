@@ -7,31 +7,26 @@ class AppbarHelper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appBar1(),
+      appBar: appBar(),
     );
   }
 
+// Basic AppBar
   AppBar appBar() {
     return AppBar(
       title: const Text('AppBar Widget'),
     );
   }
 
+// Transparent AppBar
   AppBar appBar1() {
     return AppBar(
       backgroundColor: Colors.transparent,
       title: const Text('AppBar Widget'),
-      actions: <Widget>[
-        IconButton(
-          icon: const Icon(
-            Icons.search,
-          ),
-          onPressed: () {},
-        )
-      ],
     );
   }
 
+// AppBar with custom color and elevation
   AppBar appBar2() {
     return AppBar(
       backgroundColor: Colors.red,
@@ -43,6 +38,7 @@ class AppbarHelper extends StatelessWidget {
     );
   }
 
+// AppBar with actions
   AppBar appBar3() {
     return AppBar(
       centerTitle: true,
@@ -64,6 +60,7 @@ class AppbarHelper extends StatelessWidget {
     );
   }
 
+// AppBar with actions and style
   AppBar appBar4() {
     return AppBar(
       backgroundColor: Colors.blueAccent,
@@ -86,6 +83,8 @@ class AppbarHelper extends StatelessWidget {
       ],
     );
   }
+
+// AppBar with subtitle
 
   AppBar appBar5() {
     return AppBar(
@@ -114,6 +113,8 @@ class AppbarHelper extends StatelessWidget {
     );
   }
 
+// AppBar with custom back button
+
   AppBar appBar6() {
     return AppBar(
       automaticallyImplyLeading: false,
@@ -139,6 +140,8 @@ class AppbarHelper extends StatelessWidget {
       ),
     );
   }
+
+// AppBar with image back button
 
   AppBar appBar7() {
     return AppBar(
