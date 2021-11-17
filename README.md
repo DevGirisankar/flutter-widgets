@@ -1,4 +1,6 @@
-# flutter-widgets
+# Flutter Widgets
+
+##### This project demonstarates UI setup for some basic flutter widgets.
 
 ## Container
 
