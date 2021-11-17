@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/WidgetPages/appbar.dart';
 import 'package:flutter_widgets/WidgetPages/column.dart';
 import 'package:flutter_widgets/WidgetPages/button.dart';
 import 'package:flutter_widgets/WidgetPages/container.dart';
@@ -53,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const TextfieldHelper(),
     const ColumnHelper(),
     const RowHelper(),
+    const AppbarHelper(),
   ];
   @override
   Widget build(BuildContext context) {
