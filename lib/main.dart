@@ -3,6 +3,7 @@ import 'package:flutter_widgets/WidgetPages/appbar.dart';
 import 'package:flutter_widgets/WidgetPages/column.dart';
 import 'package:flutter_widgets/WidgetPages/button.dart';
 import 'package:flutter_widgets/WidgetPages/container.dart';
+import 'package:flutter_widgets/WidgetPages/form.dart';
 import 'package:flutter_widgets/WidgetPages/row.dart';
 import 'package:flutter_widgets/WidgetPages/stack.dart';
 import 'package:flutter_widgets/WidgetPages/text.dart';
@@ -45,7 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
     'Column',
     'Row',
     'AppBar',
-    'Stack'
+    'Stack',
+    'Form'
   ];
   var kPcolor = Colors.indigo;
   final pages = [
@@ -57,6 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const RowHelper(),
     const AppbarHelper(),
     const StackHelper(),
+    const FormHelper(),
   ];
   @override
   Widget build(BuildContext context) {
