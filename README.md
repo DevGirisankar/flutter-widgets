@@ -61,3 +61,10 @@
 <img width="250" alt="Screenshot 2021-11-17 at 4 05 43 PM" src="https://user-images.githubusercontent.com/44155211/142184800-c07d8d30-3a07-4a1d-b5cb-c9ff55086276.png">
 <img width="250" alt="Screenshot 2021-11-17 at 4 05 56 PM" src="https://user-images.githubusercontent.com/44155211/142184834-aaca1282-c382-4022-a142-a6719847a3bd.png">
 <img width="250" alt="Screenshot 2021-11-17 at 4 06 09 PM" src="https://user-images.githubusercontent.com/44155211/142184858-4932540d-9c17-4a40-8c1a-fc9f0d4bcc6d.png">|
+
+## Stack
+
+|<img width="250" alt="Screenshot 2021-11-17 at 4 13 36 PM" src="https://user-images.githubusercontent.com/44155211/142186026-0a7486f3-1088-4bc8-a370-c87fa0e23636.png">
+<img width="250" alt="Screenshot 2021-11-17 at 4 13 50 PM" src="https://user-images.githubusercontent.com/44155211/142186056-99c62044-7c5f-4cf6-bda7-fb42839c898d.png">
+<img width="250" alt="Screenshot 2021-11-17 at 4 14 04 PM" src="https://user-images.githubusercontent.com/44155211/142186094-d1251ae4-4d95-4e47-a8b6-065408236f56.png">
+<img width="250" alt="Screenshot 2021-11-17 at 4 14 17 PM" src="https://user-images.githubusercontent.com/44155211/142186120-9ac5382b-b0c8-42de-b607-5f73698962b8.png">|
