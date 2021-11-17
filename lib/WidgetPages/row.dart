@@ -12,12 +12,12 @@ class RowHelper extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
-        child: row3(),
+        child: row(),
       ),
     );
   }
 
-  // Simple column
+  // Simple row
   Widget row() {
     return Row(
       mainAxisSize: MainAxisSize.min,
@@ -38,7 +38,7 @@ class RowHelper extends StatelessWidget {
     );
   }
 
-// Column with different widgets
+// row with different widgets
   Widget row1() {
     return Row(
       mainAxisSize: MainAxisSize.min,
@@ -73,7 +73,7 @@ class RowHelper extends StatelessWidget {
     );
   }
 
-  // Column with axis alignments
+  // row with axis alignments
 
   Widget row2() {
     return Row(
@@ -114,6 +114,7 @@ class RowHelper extends StatelessWidget {
     );
   }
 
+// row with column
   Widget row3() {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
