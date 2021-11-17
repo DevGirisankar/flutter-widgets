@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ButtonHelper extends StatelessWidget {
+  const ButtonHelper({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
