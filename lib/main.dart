@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/WidgetPages/column.dart';
 import 'package:flutter_widgets/WidgetPages/button.dart';
 import 'package:flutter_widgets/WidgetPages/container.dart';
+import 'package:flutter_widgets/WidgetPages/row.dart';
 import 'package:flutter_widgets/WidgetPages/text.dart';
 import 'package:flutter_widgets/WidgetPages/textfield.dart';
 
@@ -46,11 +47,12 @@ class _MyHomePageState extends State<MyHomePage> {
   ];
   var kPcolor = Colors.indigo;
   final pages = [
-    ContainerHelper(),
-    TextHelper(),
-    ButtonHelper(),
-    TextfieldHelper(),
-    ColumnHelper(),
+    const ContainerHelper(),
+    const TextHelper(),
+    const ButtonHelper(),
+    const TextfieldHelper(),
+    const ColumnHelper(),
+    const RowHelper(),
   ];
   @override
   Widget build(BuildContext context) {

@@ -1,44 +1,37 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 
-class ColumnHelper extends StatelessWidget {
-  const ColumnHelper({Key? key}) : super(key: key);
+class RowHelper extends StatelessWidget {
+  const RowHelper({Key? key}) : super(key: key);
   final textStyle = const TextStyle(color: Colors.indigoAccent, fontSize: 20.0);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Title(
-          color: Colors.white,
-          child: const Text('Column widget'),
-        ),
+        title: const Text('Row Widget'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
-        child: Center(
-          child: column3(),
-        ),
+        child: row3(),
       ),
     );
   }
 
-// Simple column
-  Widget column() {
-    return Column(
+  // Simple column
+  Widget row() {
+    return Row(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         Text(
-          "Column 1",
+          "Row 1",
           style: textStyle,
         ),
         Text(
-          "Column 2",
+          "Row 2",
           style: textStyle,
         ),
         Text(
-          "Column 3",
+          "Row 3",
           style: textStyle,
         )
       ],
@@ -46,8 +39,8 @@ class ColumnHelper extends StatelessWidget {
   }
 
 // Column with different widgets
-  Widget column1() {
-    return Column(
+  Widget row1() {
+    return Row(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         Container(
@@ -56,13 +49,13 @@ class ColumnHelper extends StatelessWidget {
           width: 100.0,
           child: Center(
             child: Text(
-              "Column 1",
+              "Row 1",
               style: textStyle,
             ),
           ),
         ),
         Text(
-          "Column 2",
+          "Row 2",
           style: textStyle,
         ),
         Container(
@@ -71,7 +64,7 @@ class ColumnHelper extends StatelessWidget {
           width: 100.0,
           child: Center(
             child: Text(
-              "Column 3",
+              "Row 3",
               style: textStyle,
             ),
           ),
@@ -82,8 +75,8 @@ class ColumnHelper extends StatelessWidget {
 
   // Column with axis alignments
 
-  Widget column2() {
-    return Column(
+  Widget row2() {
+    return Row(
       mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.end,
@@ -121,27 +114,27 @@ class ColumnHelper extends StatelessWidget {
     );
   }
 
-  Widget column3() {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
+  Widget row3() {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        const Text("Column Text 1"),
+        const Text("Row Text 11"),
         const SizedBox(
           height: 20,
         ),
-        const Text("Column Text 2"),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        const Text("Row Text 2"),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text("Row Text 1"),
+            const Text("Column Text 1"),
             Container(
               alignment: Alignment.center,
               height: 50,
               width: 100,
               color: Colors.red,
-              child: const Text("Row Text 2"),
+              child: const Text("Column Text 2"),
             ),
             ElevatedButton(
               onPressed: () {},
